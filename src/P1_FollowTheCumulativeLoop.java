@@ -30,7 +30,7 @@ public class P1_FollowTheCumulativeLoop {
 		for( int numberIndex = 1; numberIndex <= 5; numberIndex++ ) {
 			
 			// Enter the values in this order: 4 3 5 2 6
-			System.out.print("Enter number " + numberIndex + ": ");
+			System.out.print("Enter number " + numberIndex + ":4 ");
 			int nextInputValue = input.nextInt();
 			
 			if( nextInputValue < accumulatorVariable ) {
